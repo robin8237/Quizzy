@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+#logo {
+    width: 1500px;
+    height: 350px;
+}
+
+#title{
+    color: white;
+    
+}
+
+#textBox{
+    justify-content: center;
+}
+#nameInput{
+    flex-grow: 0;
+    flex-basis: 250px;
+}
+
+.navbar{
+
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+}
+
+#welcomeUser{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.jumbotron{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 15%;
+}
+
+#jumbo{
+    margin-top: 125px;
+    font-size: 75px;
+}
+
+#jumboP{
+    margin: 25px;
+    font-size: 20px;
+    color: white;
+}
+
+#share{
+    float: right;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5%;
+}
+
+#quizCat{
+    margin-top: 250px;
+    width: 400px;
+    height: 250px;
+    filter: drop-shadow(5px 5px 5px #666666);
+}
+
+#quizCatM{
+    margin-top: 250px;
+    width: 400px;
+    height: 250px;
+    filter: drop-shadow(5px 5px 5px #666666);
+}
+
+#quiz-home-btn{
+    cursor: pointer;
+}
+
+.cls-1 {
+    fill: #fff;
+}
+
+.cls-2 {
+    fill: #ccc;
+}
+
+.cls-3 {
+    fill: #999;
+}
